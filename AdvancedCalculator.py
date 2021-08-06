@@ -29,14 +29,6 @@ def Input():
         print("Invalid Format.")     
 Input()
 
-def again():
-    q1 = input("Do you want to calculate more?(y/n)")
-    if q1 == 'n':
-        print("Okay, bye bye")
-    elif q1 == 'y':
-        Input()
-again()
-
 while True:
     q2 = input("Do you want to calculate more?(y/n)")
     if q2 == 'n':
